@@ -1,3 +1,8 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
 .link {
   font-size: 1.3rem;
   margin-right: 15px;
@@ -29,7 +34,7 @@ i:hover {
 .Home {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("/image.jpeg") no-repeat center/cover;
-  height: 100vh;
+  height: 750px;
 }
 
 .header {
@@ -147,5 +152,47 @@ hr {
   100% {
     filter: blur(0);
     opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .Home {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("/image.jpeg") no-repeat center/cover;
+    height: 750px;
+  }
+
+  .Home h1 {
+    font-size: 3.5rem;
+  }
+
+  .Home .lead {
+    font-size: 2rem;
+  }
+
+  .Home button {
+    font-size: 1rem;
+  }
+  .Specials img {
+    height: 200px;
+    width: 200px;
+  }
+
+  .Specials h1 {
+    font-size: 2rem;
+  }
+
+  .Specials h3 {
+    font-size: 1.3rem;
+  }
+
+  .Shoes h1 {
+    font-size: 2rem;
+  }
+
+  .Shoes .container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
   }
 }

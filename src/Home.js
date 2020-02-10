@@ -10,14 +10,11 @@ const Home = () => {
       <div>
         <button
           id="sign-up"
-          className="home-button btn btn-primary btn-lg mt-5 hvr-border-fade"
+          className="home-button btn btn-primary btn-lg mt-5"
         >
           Sign Up
         </button>
-        <button
-          id="login"
-          className="home-button btn btn-primary btn-lg mt-5 hvr-border-fade "
-        >
+        <button id="login" className="home-button btn btn-primary btn-lg mt-5">
           Login
         </button>
       </div>

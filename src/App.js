@@ -3,6 +3,7 @@ import Navigation from "./Navigation";
 import Home from "./Home";
 import Specials from "./Specials";
 import Shoes from "./Shoes";
+import Footer from "./Footer";
 import "./App.css";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Home />
       <Specials />
       <Shoes />
+      <Footer />
     </div>
   );
 }
